@@ -1,6 +1,6 @@
-import {usePostsStoreActions, useSelectedPostsCount, useSelectedPostsIds} from "@/components/Posts/posts.store";
+import {usePostsStoreActions, useSelectedPostsCount, useSelectedPostsIds} from "@/components/posts/posts.store";
 import {useCallback} from "react";
-import {usePosts, useRemoveAllPosts, useRemoveSelectedPosts} from "@/components/Posts/posts.queries";
+import {usePosts, useRemoveAllPosts, useRemoveSelectedPosts} from "@/components/posts/posts.queries";
 
 /*
     The controller layer might be optional when views are small, such as Posts and PostItem. Even PostsActionBar could be implemented without a separate hook(controller), but this one has been created for to illustrate it's use. 
